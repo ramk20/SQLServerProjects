@@ -20,6 +20,6 @@ LEFT JOIN sys.indexes ON indexes.OBJECT_ID = partitions.OBJECT_ID
 	AND indexes.index_id = partitions.index_id
 WHERE resource_associated_entity_id > 0
 	AND resource_database_id = DB_ID()
---and request_session_id = 146
+--and request_session_id = 146 ------------------------ > change the spid and modify the context of the database from the results of sp_who2 for the same spid
 ORDER BY request_session_id
 	,resource_associated_entity_id

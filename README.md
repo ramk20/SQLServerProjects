@@ -5,3 +5,4 @@ All SQL Server related code collected as part of my duties for the past many yea
 
 ## DBA Scripts
 * [Check Locks By SPID](DBA.Check_Locks_By_SPID.sql)
+* [Check Locks By SPID](DBA.Check_Locks_By_Table.sql)
